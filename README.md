@@ -15,6 +15,7 @@
  -run with live server
 
  ## Link To Live Site On Github Pages
-
+https://schebiwot/github.io//Portfolio.git
 
  ## Copyright And Licence Information
+ All rights are reserved for the author

@@ -1,0 +1,36 @@
+
+             
+/* unvisited link */
+a:link {
+  color: rgb(175, 170, 170);
+  text-decoration: none;
+ 
+}
+
+/* visited link */
+a:visited {
+  color: rgb(237, 243, 237);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(190, 140, 165);
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: rgb(120, 120, 173);
+  text-decoration: none;
+}
+.container py-6 {
+    display: -webkit-flex;
+    display: flex;
+    width: 600px;
+    height: 200px;
+    align-self: center;
+    background-color: darkslategrey;
+    
+    
+}

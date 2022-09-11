@@ -1,73 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-  
+    <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
 <header style="height: 40px; width: 100%;margin: 0 auto;
-text-align: center;">  
-    <ul >
-        <style>
-             
-/* unvisited link */
-a:link {
-  color: rgb(175, 170, 170);
-  text-decoration: none;
- 
-}
+text-align: center;">
+    <!-- <ul > -->
 
-/* visited link */
-a:visited {
-  color: rgb(237, 243, 237);
-  text-decoration: none;
-}
+        <a href="#">ABOUT | </a>
+        <a href="Projects.html">PROJECTS</a>
 
-/* mouse over link */
-a:hover {
-  color: rgb(190, 140, 165);
-  text-decoration: none;
-}
 
-/* selected link */
-a:active {
-  color: rgb(120, 120, 173);
-  text-decoration: none;
-}
-.flex-container {
-    display: -webkit-flex;
-    display: flex;
-    width: 600px;
-    height: 200px;
-    align-self: center;
-    
-    
-}
-        </style>
-
-        <a  href="#">About | </a>
-        <a href="Projects.html">Projects</a>
-                 
-
-    </ul>
+    <!-- //</ul> -->
     <!-- <h1 style="font-size: 30px; color: white;text-align: center; padding-top: 15px;">Welcome to     MyFirstWebpage</h1>   -->
- </header> 
+</header>
 
 <body style="background-position: center center;background-repeat: no-repeat;background-attachment:fixed;background-size: cover;
 background-color: #585f63;">
-<img align="left" border-radius="10px"  src="images/099.jpg "height="180" width="300" alt="profile image ">  
+    <!-- <img align="left" border-radius="10px" src="images/099.jpg " height="180" width="300" alt="profile image "> -->
+    <div class="container py-6">
+        <div class="card" >
+            <img src="images/099.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Hello!</h3>
 
-<div class="flex-container">  
-  
-        <h3>Hello!    </h3> 
-       
-    <h2><i>I am Sharon Kimeli<br><em>An aspiring software Engineer</em></i></h2><br>
-</div>
-    <p>I believe in the power of technology to make lives better. It is true,
-    some problems can be solved by technology and others by soft skills. I love to associate my coding skills with my soft skills to solve day to day practical problems using technology. I am a software engineer who understands and appreciate the whole process of project management.
-    I am dynamic and often refines my skills to understand how best can i optimize my solutions.<p>
-   
+              <h2><i>I am Sharon Kimeli<br><em>An aspiring software Engineer</em></i></h2></p>
+
+              <p class="card-text">I have a backgroud in IT with more than 4 years experience in technology industry.I strongly believe in the power of technology 
+                to make lives better, currently i'm a software 
+                quality engineer and the main reason i'm taking this programming class is i want to transition to a 
+                software engineering role. while i'm not working i like to spend time with my family creating memories and occasionaly
+                try new recipes.</p>
+              <a href="#" class="btn btn-primary">Download Resume</a>
+            </div>
+          </div>
+    
+
+            </div>
+        </div>
+
+        <script src="./js/bootstrap.min.js"></script>
+    </div>
 </body>
+
 </html>
